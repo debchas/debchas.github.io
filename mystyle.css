@@ -2,6 +2,27 @@ div {
 	border-radius: 5px;
 }
 
+a:link{
+			color: #FFDD33; 
+			text-decoration: none;
+			font-weight: normal;
+			}
+		a:visited{
+			color: #FFDD33;
+			text-decoration: none; 
+			font-weight: normal;
+		}
+		a:active{
+			color: black;
+			text-decoration: none;
+			font-weight: normal;
+		}
+		a:hover {
+			color: #FFEA80; 
+			text-decoration: none;
+			font-weight: normal;
+			}
+
 #header {
 	z-index: 1;
 	position: fixed;
@@ -27,44 +48,43 @@ div {
 	padding-top: 5px;
 	font-size: 16px;
 	font-family: Helvetica, sans-serif;
-	color: #E6CCB3;
-}
+	color: #E6CCB3; 
+	a:link {
+			color: #FFDD33; 
+			text-decoration: none;
+			font-weight: normal;
+			}
+		a:visited{
+			color: #570000;
+			text-decoration: none; 
+			font-weight: normal;
+		}
+		a:active{
+			color: black;
+			text-decoration: none;
+			font-weight: normal;
+		}
+		a:hover {
+			color: #FFEA80; 
+			text-decoration: none;
+			font-weight: normal;
+			}
 
 h4 {
 	margin-left: 5px;
 	margin-bottom: 15px;
 	font-family: Helvetica, sans-serif;
-	
-th {
-<th colspan="2"; style="color:black"; font-family=Helvetica, sans-serif; font-size=14>
 }
 
-.right p {
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-top: -10px;
-	font-family: Helvetica, sans serif;
-	color: #570000;
-}
+p {
+	font-family: Helvetica, sans-serif;
+	}
 
-li {
+	li {
 	list-style-type: circle;
-}
-
-a:hover {
-	color: #FFEA80;
-}
-a:visted {
-color: #FFDD33
-}
-a {
-text-decoration:none
-}
-
-#locator{ 
-position:absolute; visibility:show; left: 20px;
-top: 300px; z-index:200; width: 6%;
-} 
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	}
 
 .left {
 	position: relative;
@@ -74,6 +94,25 @@ top: 300px; z-index:200; width: 6%;
 	height: 400px;
 	background-color: #999933;
 	margin-bottom: 10px;
+}
+
+	div img {
+		display: block;
+		width: auto;
+		height: auto;
+		max-height: 80%;
+		max-width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 12px;
+}
+
+.right p {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 50px;
+	font-family: Helvetica, sans-serif;
+	color: #999933;
 }
 
 .right {
@@ -86,6 +125,19 @@ top: 300px; z-index:200; width: 6%;
 	margin-bottom: 10px;
 }
 
+tbody {
+	colspan: 2;
+	color:black";
+	font-family: Helvetica, sans-serif; 
+	font-size: 14px;
+}
+
+tr {
+	colspan: 2;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	}
+
 #footer {
 	position: relative;
 	height: 50px;
@@ -95,9 +147,4 @@ top: 300px; z-index:200; width: 6%;
 	font-size: 14px;
 	text-align: center;
 	color: #E6CCB3;
-}
-
-#footer p {
-	position: relative;
-	padding-top: 15px;
 }
